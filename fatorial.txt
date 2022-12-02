@@ -1,0 +1,9 @@
+n=int(input("Entre com um número natural para calcular o fatorial."))
+
+resultado= 1
+cont= 1
+
+while cont <= n:
+   resultado = resultado * cont 
+   cont = cont + 1
+print (resultado)
